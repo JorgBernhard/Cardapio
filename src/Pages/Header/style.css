@@ -1,0 +1,80 @@
+
+.nav-icon img {
+  height: 4rem;
+  position: fixed;
+  top: 0.5rem;
+  right: 1rem;
+  cursor: pointer;
+  z-index: 100;
+}
+@media only screen and (max-width: 800px) {
+  .nav-icon img {
+    height: 3rem;
+   }}
+.nav-menu {
+  background-color: rgba(255, 255, 255, 0);
+  width: 100vw;
+  height: 4rem;
+  display: flex;
+  justify-content: right;
+  position: fixed;
+  align-items: center;
+  right: 100vw;
+  transition: 250ms;
+  z-index: 20;
+  
+}
+.nav-menu.active {
+  right: 0rem;
+  transition: 250ms;
+  
+}
+
+.nav-menu-items {
+  display: flex;
+  flex-direction: row;
+  margin-top: rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
+  
+}
+.nav-menu-items .links-header {
+  padding: 1rem 1rem;
+}
+
+.nav-menu-items .links-header:first-child {
+  margin-top: 0rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 2.0rem;
+  margin-left: 0rem;
+  margin-right: 2rem;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+@media only screen and (max-width: 800px) {
+  a {
+    font-size: 1.6rem;
+
+   }}
+
+a:hover {
+  color: rgb(255, 238, 0);
+}
+
+.nav-menu span {
+  cursor: pointer;
+  position: absolute;
+  right: 0rem;
+  top: 0rem;
+  color: rgba(255, 255, 255, 0);
+  font-size:2.4rem;
+}
+
+.nav-menu span:hover {
+  color: rgba(255, 217, 0, 0);
+}

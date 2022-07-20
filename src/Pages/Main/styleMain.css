@@ -1,0 +1,35 @@
+.Main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+}
+.nome {
+  font-size: 4rem;
+  color:goldenrod;
+  text-align: center;
+
+  height: 5rem;
+  margin-top: 5rem;
+}
+.header-foto {
+  width: 100vw;
+  height: 50vh;
+}
+.nos {
+  font-size: 3rem;
+  color:goldenrod;
+  text-align: center;
+  z-index: 30;
+}
+.texto-geral {
+  font-size: 2rem;
+  color:goldenrod;
+  text-align: center;
+  padding: 1rem;
+  z-index: 30;
+}
+.chamas {
+  width: 100vw;
+  margin-top: -10rem;
+}

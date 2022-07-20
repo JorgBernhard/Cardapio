@@ -1,0 +1,43 @@
+.Pratos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(28, 28, 28);
+}
+.pratos {
+  font-size: 3rem;
+  color:goldenrod;
+  text-align: center;
+
+  height: 2rem;
+  margin-top: 2rem;
+}
+.cardapioCard {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.Card {
+  text-align: center;
+  background-color: black;
+}
+.Card h4 {
+ 
+  font-size: 2rem;
+  color: goldenrod;
+}
+.Card img {
+  width: 37rem;
+  margin-bottom: 2rem;
+}
+.Card span {
+  font-size: 1.6rem;
+  color: goldenrod;
+}
+.Card p {
+  font-size: 1.6rem;
+  color: goldenrod;
+  text-align: end;
+  margin-right: 1rem;
+}

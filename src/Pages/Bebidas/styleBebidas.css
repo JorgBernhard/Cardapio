@@ -1,0 +1,41 @@
+.Bebidas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(28, 28, 28);
+}
+.bebidas {
+  font-size: 3rem;
+  color:goldenrod;
+  text-align: center;
+
+  height: 2rem;
+  margin-top: 2rem;
+}
+.cardapioCard-bebidas {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.Card-bebidas {
+  text-align: center;
+  background-color: black;
+}
+.Card-bebidas img {
+  width: 37rem;
+  margin-bottom: 2rem;
+}
+.lista {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 2rem;
+  
+}
+li {
+  all:unset;
+  margin-left: -10rem;
+  font-size: 1.6rem;
+  color:goldenrod;
+}
